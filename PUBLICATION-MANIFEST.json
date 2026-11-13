@@ -19,8 +19,8 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "bytes": 905,
-      "sha256": "b3e8741ee9ab04f13631d0441c2d08dc93e91f03603e3f4958add91d4d07dc71"
+      "bytes": 1111,
+      "sha256": "b984f537602cddfe090e5c1a48a209f419335969a84f9098b7289363eb6575f0"
     },
     {
       "path": ".gitignore",
@@ -91,6 +91,11 @@
       "path": "docs/LEARNING.md",
       "bytes": 5429,
       "sha256": "8829cc120fa98d64e6954ae1aa137f3562e09f93232ab18755e6715bddc4e546"
+    },
+    {
+      "path": "docs/RELEASE-NOTES.md",
+      "bytes": 2283,
+      "sha256": "b6b43b49d0028e1fc4f356552aa2d8a5a1c9227b0973c170d111cf30b966a41b"
     },
     {
       "path": "docs/RELEASING.md",
@@ -514,7 +519,7 @@
     }
   ],
   "browser_upload_batch_limit": 100,
-  "content_file_count": 101,
+  "content_file_count": 102,
   "excludes": [
     "local-bank/",
     "practice-site/",

@@ -12,13 +12,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - name: Verify tag matches data version
         run: python -c "import json,os; assert os.environ['GITHUB_REF_NAME'] == 'v' + json.load(open('data/catalog.json'))['version']"
       - run: python -m unittest discover -s tests -v
-      - run: python jiakao.py package
+      - run: node --test tests/learning.test.mjs
+      - run: python prepare_publication.py
       - run: git diff --exit-code -- generated
       - run: test -z "$(git ls-files --others --exclude-standard generated)"
       - name: Publish release assets
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" dist/*.zip dist/SHA256SUMS --title "驾考脑库 $GITHUB_REF_NAME" --notes-file CHANGELOG.md --verify-tag
+        run: gh release create "$GITHUB_REF_NAME" release-bundles/*.zip release-bundles/SHA256SUMS release-bundles/PUBLICATION-MANIFEST.json --title "驾考脑库 $GITHUB_REF_NAME" --notes-file docs/RELEASE-NOTES.md --verify-tag
