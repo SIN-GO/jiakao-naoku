@@ -1,0 +1,181 @@
+[
+  {
+    "id": "jk-demo-001",
+    "stem": "按所列法规文本，科目一成绩达到90分为合格。",
+    "kind": "true_false",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answers": [
+      "A"
+    ],
+    "subject": "subject1",
+    "vehicles": [
+      "C1",
+      "C2"
+    ],
+    "topics": [
+      "passing-score"
+    ],
+    "explanation": "科目一满分100分，达到90分为合格。本题为原创法规练习。",
+    "reasoning": "先识别题目限定条件，再对照依据条文。",
+    "pitfall": "不要将此练习当作官方真题，也不要据此推断所有申领情形。",
+    "images": [],
+    "sources": [
+      "original-v1"
+    ],
+    "evidence": [
+      {
+        "source_id": "mps-172",
+        "locator": "第三十八条第一项"
+      }
+    ],
+    "origin": "original_practice",
+    "license": "CC-BY-4.0",
+    "version": "0.1.0",
+    "rights_status": "cleared",
+    "review_status": "reviewed",
+    "reviewed_at": "2026-11-13",
+    "reviewer": "AI-assisted-source-check",
+    "review_note": "已对照所列公开法规文本；仅为资料对照核验，未经独立人工复核，未确认覆盖所有后续修订。"
+  },
+  {
+    "id": "jk-demo-002",
+    "stem": "按所列法规文本，申请普通二轮或普通三轮摩托车准驾车型的年龄范围是哪项？",
+    "kind": "single",
+    "options": {
+      "A": "18周岁以上、70周岁以下",
+      "B": "20周岁以上、63周岁以下",
+      "C": "22周岁以上、63周岁以下",
+      "D": "不受年龄条件限制"
+    },
+    "answers": [
+      "A"
+    ],
+    "subject": "subject1",
+    "vehicles": [
+      "D",
+      "E"
+    ],
+    "topics": [
+      "motorcycle-age"
+    ],
+    "explanation": "普通三轮摩托车、普通二轮摩托车的申领年龄要求为18周岁以上、70周岁以下；还需满足其他法定条件。",
+    "reasoning": "先识别题目限定条件，再对照依据条文。",
+    "pitfall": "不要将此练习当作官方真题，也不要据此推断所有申领情形。",
+    "images": [],
+    "sources": [
+      "original-v1"
+    ],
+    "evidence": [
+      {
+        "source_id": "mps-172",
+        "locator": "第十四条第一项第二目"
+      }
+    ],
+    "origin": "original_practice",
+    "license": "CC-BY-4.0",
+    "version": "0.1.0",
+    "rights_status": "cleared",
+    "review_status": "reviewed",
+    "reviewed_at": "2026-11-13",
+    "reviewer": "AI-assisted-source-check",
+    "review_note": "已对照所列公开法规文本；仅为资料对照核验，未经独立人工复核，未确认覆盖所有后续修订。"
+  },
+  {
+    "id": "jk-demo-003",
+    "stem": "下列哪些知识属于所列法规列举的安全文明驾驶常识考试内容？",
+    "kind": "multiple",
+    "options": {
+      "A": "恶劣气象和复杂道路条件下的安全驾驶知识",
+      "B": "爆胎等紧急情况下的临危处置方法",
+      "C": "伤员急救知识",
+      "D": "机动车生产企业的财务报表编制"
+    },
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "subject": "subject3_safe",
+    "vehicles": [
+      "C1",
+      "C2"
+    ],
+    "topics": [
+      "exam-structure"
+    ],
+    "explanation": "A、B、C属于该条列举的知识范围；财务报表编制不属于这些驾驶常识内容。本题检验知识分类，不模拟实际考试题目。",
+    "reasoning": "先识别题目限定条件，再对照依据条文。",
+    "pitfall": "不要将此练习当作官方真题，也不要据此推断所有申领情形。",
+    "images": [],
+    "sources": [
+      "original-v1"
+    ],
+    "evidence": [
+      {
+        "source_id": "mps-172",
+        "locator": "第三十五条"
+      }
+    ],
+    "origin": "original_practice",
+    "license": "CC-BY-4.0",
+    "version": "0.1.0",
+    "rights_status": "cleared",
+    "review_status": "reviewed",
+    "reviewed_at": "2026-11-13",
+    "reviewer": "AI-assisted-source-check",
+    "review_note": "已对照所列公开法规文本；仅为资料对照核验，未经独立人工复核，未确认覆盖所有后续修订。"
+  },
+  {
+    "id": "jk-demo-004",
+    "stem": "参照学习示意图，安全文明驾驶常识应归入哪个法定考试科目？",
+    "kind": "single",
+    "options": {
+      "A": "科目一",
+      "B": "科目二",
+      "C": "科目三",
+      "D": "独立的法定科目四"
+    },
+    "answers": [
+      "C"
+    ],
+    "subject": "subject3_safe",
+    "vehicles": [
+      "C1",
+      "C2"
+    ],
+    "topics": [
+      "exam-structure"
+    ],
+    "explanation": "法定科目三包含道路驾驶技能和安全文明驾驶常识。示意图仅辅助理解科目结构，不表示各车型的完整必考项目。",
+    "reasoning": "先识别题目限定条件，再对照依据条文。",
+    "pitfall": "不要将此练习当作官方真题，也不要据此推断所有申领情形。",
+    "images": [
+      {
+        "path": "exam-structure.svg",
+        "alt": "原创学习示意图：科目三连接道路驾驶技能和安全文明驾驶常识",
+        "license": "CC-BY-4.0",
+        "source_id": "original-v1"
+      }
+    ],
+    "sources": [
+      "original-v1"
+    ],
+    "evidence": [
+      {
+        "source_id": "mps-172",
+        "locator": "第三十条第一款"
+      }
+    ],
+    "origin": "original_practice",
+    "license": "CC-BY-4.0",
+    "version": "0.1.0",
+    "rights_status": "cleared",
+    "review_status": "reviewed",
+    "reviewed_at": "2026-11-13",
+    "reviewer": "AI-assisted-source-check",
+    "review_note": "已对照所列公开法规文本；仅为资料对照核验，未经独立人工复核，未确认覆盖所有后续修订。"
+  }
+]

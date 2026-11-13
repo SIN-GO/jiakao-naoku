@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jiakao-naoku"
+version = "0.1.0"
+description = "可核验的驾考知识库、Obsidian 笔记与静态 JSON 数据"
+requires-python = ">=3.11"
+license = {text = "MIT (code); CC-BY-4.0 (original content)"}
+
+[project.scripts]
+jiakao = "jiakao:main"
+
+[tool.setuptools]
+py-modules = ["jiakao"]

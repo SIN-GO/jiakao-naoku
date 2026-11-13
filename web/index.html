@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#143f37"><title>驾考脑库 · 学会，再上路</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="shell">
+  <aside class="sidebar"><a class="brand" href="#home"><span class="brand-icon">路</span><span>驾考脑库<small>DRIVING STUDY</small></span></a><div class="nav-caption">你的学习空间</div><nav id="nav" aria-label="主导航"><a href="#home" data-view="home">◫ <span>今日学习</span></a><a href="#learn" data-view="learn">▤ <span>考点学习</span></a><a href="#practice" data-view="practice">▷ <span>题目练习</span></a><a href="#review" data-view="review">↺ <span>错题复习</span><b id="due-badge">0</b></a><a href="#plan" data-view="plan">▦ <span>学习计划</span></a></nav><div class="sidebar-bottom"><span class="status-dot"></span> 进度保存在当前浏览器<small>支持导出备份，换设备后可恢复。</small><button id="export-progress" class="text-button">导出进度 ↗</button><label class="import-label">恢复进度<input id="import-progress" type="file" accept="application/json,.json" hidden></label></div></aside>
+  <div class="workspace"><header class="topbar"><div><span class="eyebrow">一步一步，稳稳上路</span><div id="source-label" class="source-label">正在加载题库…</div></div><div id="clock-date" class="date-label"></div></header><main id="app" aria-live="polite"><div class="empty">正在整理你的学习空间…</div></main><footer>驾考脑库 · 学习辅助资料，不承诺官方真题覆盖或考试通过。<div class="mobile-backup"><button id="mobile-export" class="text-button">导出进度</button><button id="mobile-import" class="text-button">恢复进度</button></div></footer></div>
+</div><div id="toast" role="status" hidden></div><script type="module" src="app.mjs"></script>
+</body></html>

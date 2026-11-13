@@ -1,0 +1,43 @@
+[
+  {
+    "id": "jk-demo-001",
+    "stem": "按所列法规文本，科目一成绩达到90分为合格。",
+    "kind": "true_false",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answers": [
+      "A"
+    ],
+    "subject": "subject1",
+    "vehicles": [
+      "C1",
+      "C2"
+    ],
+    "topics": [
+      "passing-score"
+    ],
+    "explanation": "科目一满分100分，达到90分为合格。本题为原创法规练习。",
+    "reasoning": "先识别题目限定条件，再对照依据条文。",
+    "pitfall": "不要将此练习当作官方真题，也不要据此推断所有申领情形。",
+    "images": [],
+    "sources": [
+      "original-v1"
+    ],
+    "evidence": [
+      {
+        "source_id": "mps-172",
+        "locator": "第三十八条第一项"
+      }
+    ],
+    "origin": "original_practice",
+    "license": "CC-BY-4.0",
+    "version": "0.1.0",
+    "rights_status": "cleared",
+    "review_status": "reviewed",
+    "reviewed_at": "2026-11-13",
+    "reviewer": "AI-assisted-source-check",
+    "review_note": "已对照所列公开法规文本；仅为资料对照核验，未经独立人工复核，未确认覆盖所有后续修订。"
+  }
+]

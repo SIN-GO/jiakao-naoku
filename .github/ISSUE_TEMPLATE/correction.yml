@@ -1,0 +1,22 @@
+name: 题目纠错或权利问题
+description: 提交答案、车型、法规时效或许可问题
+body:
+  - type: input
+    id: question
+    attributes:
+      label: 题目 ID 和数据版本
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 问题描述
+      description: 请勿上传未经许可的商业题库内容。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 权威依据链接、条号或权利证明
+    validations:
+      required: true

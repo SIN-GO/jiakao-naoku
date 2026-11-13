@@ -1,0 +1,24 @@
+name: Release versioned data
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify tag matches data version
+        run: python -c "import json,os; assert os.environ['GITHUB_REF_NAME'] == 'v' + json.load(open('data/catalog.json'))['version']"
+      - run: python -m unittest discover -s tests -v
+      - run: python jiakao.py package
+      - run: git diff --exit-code -- generated
+      - run: test -z "$(git ls-files --others --exclude-standard generated)"
+      - name: Publish release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" dist/*.zip dist/SHA256SUMS --title "驾考脑库 $GITHUB_REF_NAME" --notes-file CHANGELOG.md --verify-tag

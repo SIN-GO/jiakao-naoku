@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "version": "0.1.0",
+  "as_of": "2026-11-13",
+  "unique_questions": 4,
+  "complete": false,
+  "catalog": "catalog.json",
+  "coverage": "coverage.json",
+  "questions": "questions.json",
+  "partitions": [
+    {
+      "vehicle": "A1",
+      "subject": "subject1",
+      "path": "vehicles/A1/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "A1",
+      "subject": "subject3_safe",
+      "path": "vehicles/A1/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "A2",
+      "subject": "subject1",
+      "path": "vehicles/A2/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "A2",
+      "subject": "subject3_safe",
+      "path": "vehicles/A2/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "A3",
+      "subject": "subject1",
+      "path": "vehicles/A3/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "A3",
+      "subject": "subject3_safe",
+      "path": "vehicles/A3/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "B1",
+      "subject": "subject1",
+      "path": "vehicles/B1/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "B1",
+      "subject": "subject3_safe",
+      "path": "vehicles/B1/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "B2",
+      "subject": "subject1",
+      "path": "vehicles/B2/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "B2",
+      "subject": "subject3_safe",
+      "path": "vehicles/B2/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "C1",
+      "subject": "subject1",
+      "path": "vehicles/C1/subject1.json",
+      "count": 1
+    },
+    {
+      "vehicle": "C1",
+      "subject": "subject3_safe",
+      "path": "vehicles/C1/subject3_safe.json",
+      "count": 2
+    },
+    {
+      "vehicle": "C2",
+      "subject": "subject1",
+      "path": "vehicles/C2/subject1.json",
+      "count": 1
+    },
+    {
+      "vehicle": "C2",
+      "subject": "subject3_safe",
+      "path": "vehicles/C2/subject3_safe.json",
+      "count": 2
+    },
+    {
+      "vehicle": "C3",
+      "subject": "subject1",
+      "path": "vehicles/C3/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "C3",
+      "subject": "subject3_safe",
+      "path": "vehicles/C3/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "C4",
+      "subject": "subject1",
+      "path": "vehicles/C4/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "C4",
+      "subject": "subject3_safe",
+      "path": "vehicles/C4/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "C5",
+      "subject": "subject1",
+      "path": "vehicles/C5/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "C5",
+      "subject": "subject3_safe",
+      "path": "vehicles/C5/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "C6",
+      "subject": "subject1",
+      "path": "vehicles/C6/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "C6",
+      "subject": "subject3_safe",
+      "path": "vehicles/C6/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "D",
+      "subject": "subject1",
+      "path": "vehicles/D/subject1.json",
+      "count": 1
+    },
+    {
+      "vehicle": "D",
+      "subject": "subject3_safe",
+      "path": "vehicles/D/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "E",
+      "subject": "subject1",
+      "path": "vehicles/E/subject1.json",
+      "count": 1
+    },
+    {
+      "vehicle": "E",
+      "subject": "subject3_safe",
+      "path": "vehicles/E/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "F",
+      "subject": "subject1",
+      "path": "vehicles/F/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "F",
+      "subject": "subject3_safe",
+      "path": "vehicles/F/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "M",
+      "subject": "subject1",
+      "path": "vehicles/M/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "M",
+      "subject": "subject3_safe",
+      "path": "vehicles/M/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "N",
+      "subject": "subject1",
+      "path": "vehicles/N/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "N",
+      "subject": "subject3_safe",
+      "path": "vehicles/N/subject3_safe.json",
+      "count": 0
+    },
+    {
+      "vehicle": "P",
+      "subject": "subject1",
+      "path": "vehicles/P/subject1.json",
+      "count": 0
+    },
+    {
+      "vehicle": "P",
+      "subject": "subject3_safe",
+      "path": "vehicles/P/subject3_safe.json",
+      "count": 0
+    }
+  ]
+}

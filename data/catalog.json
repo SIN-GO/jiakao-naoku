@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "version": "0.1.0",
+  "as_of": "2026-11-13",
+  "vehicles": [
+    {
+      "code": "A1",
+      "name": "大型客车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "A2",
+      "name": "重型牵引挂车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "A3",
+      "name": "城市公交车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "B1",
+      "name": "中型客车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "B2",
+      "name": "大型货车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "C1",
+      "name": "小型汽车",
+      "exam_mapping_status": "reviewed",
+      "exam_note": "仅核验样例知识适用性；初领、增驾及免考须按申领情形另行核查，不代表完整考试映射。"
+    },
+    {
+      "code": "C2",
+      "name": "小型自动挡汽车",
+      "exam_mapping_status": "reviewed",
+      "exam_note": "仅核验样例知识适用性；初领、增驾及免考须按申领情形另行核查，不代表完整考试映射。"
+    },
+    {
+      "code": "C3",
+      "name": "低速载货汽车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "C4",
+      "name": "三轮汽车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "C5",
+      "name": "残疾人专用小型自动挡载客汽车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "C6",
+      "name": "轻型牵引挂车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "D",
+      "name": "普通三轮摩托车",
+      "exam_mapping_status": "reviewed",
+      "exam_note": "仅核验样例知识适用性；初领、增驾及免考须按申领情形另行核查，不代表完整考试映射。"
+    },
+    {
+      "code": "E",
+      "name": "普通二轮摩托车",
+      "exam_mapping_status": "reviewed",
+      "exam_note": "仅核验样例知识适用性；初领、增驾及免考须按申领情形另行核查，不代表完整考试映射。"
+    },
+    {
+      "code": "F",
+      "name": "轻便摩托车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "M",
+      "name": "轮式专用机械车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "N",
+      "name": "无轨电车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    },
+    {
+      "code": "P",
+      "name": "有轨电车",
+      "exam_mapping_status": "pending",
+      "exam_note": "车型目录已建；具体申领情形与考试适用关系待核验。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "original-v1",
+      "title": "驾考脑库原创法规练习",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "version": "0.1.0",
+      "checked_at": "2026-11-13",
+      "redistribution": "cleared",
+      "stem_terms": "本项目原创，CC BY 4.0；非官方真题。",
+      "explanation_terms": "本项目独立编写，CC BY 4.0。",
+      "image_terms": "本项目原创学习示意图，CC BY 4.0；非标准交通标志。"
+    },
+    {
+      "id": "mps-172",
+      "title": "机动车驾驶证申领和使用规定（公安部令第172号修订）",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202412/t20241231_3978134.html",
+      "version": "2024-12-21公布，2025-01-01施行的公开文本",
+      "checked_at": "2026-11-13",
+      "redistribution": "reference_only",
+      "stem_terms": "仅作答案核验依据；不作为可再分发题库。",
+      "explanation_terms": "引用条号与链接；不复制第三方题目解析。",
+      "image_terms": "不收录该来源的图片。"
+    }
+  ],
+  "topics": [
+    {
+      "id": "exam-structure",
+      "title": "考试科目与安全文明驾驶",
+      "summary": "科目三包含道路驾驶技能和安全文明驾驶常识。科目四为常用称呼，不另设法定科目编号。"
+    },
+    {
+      "id": "passing-score",
+      "title": "考试合格标准",
+      "summary": "按科目与车型核对合格标准，勿将不同科目阈值混用。"
+    },
+    {
+      "id": "motorcycle-age",
+      "title": "摩托车申领年龄",
+      "summary": "区分普通摩托车与轻便摩托车，并结合身体条件及申领情形核验。"
+    }
+  ]
+}
